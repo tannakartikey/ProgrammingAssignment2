@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This program caches a result of a function to save extra computing.
+## If the values are not changed it returns the result from cache.
 
-## Write a short comment describing this function
+## This functions creates a chace of a matrix.
+## This function returns the chached value.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function checks if cached result is available or not.
+## If not it computes it again.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
